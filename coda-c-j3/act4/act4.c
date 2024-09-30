@@ -7,11 +7,11 @@ int main()
 {
 
 	
-	int a=0;
-	int i=0;
+	long long a=0;
+	long long i=0;
 	while (i!=111222){
     	a=a+i;
 	i=i+1;}
-	printf("%d",a);
+	printf("%lld",a);
 exit(0);
 }
